@@ -95,7 +95,7 @@ end)
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
-        local playerPed = GetPlayerPed(-1)
+        local playerPed = PlayerPedId()
 
         for _, npc in ipairs(Config.npcs) do
             local coords = GetEntityCoords(playerPed, false)
