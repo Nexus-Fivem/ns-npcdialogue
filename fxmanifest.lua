@@ -2,7 +2,7 @@ fx_version "adamant"
 game "gta5"
 
 author 'berxt.ogg & torpak.'
-description 'NP Inspired Dialogue by Nexus | https://discord.gg/j87NTfVGQX'
+description 'NP Inspired Dialogue by Nexus | https://discord.gg/nexusdev'
 version '0.5.0'
 
 ui_page "ui/index.html"
