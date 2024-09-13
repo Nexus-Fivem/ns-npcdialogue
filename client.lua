@@ -34,7 +34,7 @@ function DestroyCamera()
 end
 
 -- NPC'leri spawn et
-Citizen.CreateThread(function()
+CreateThread(function()
     for _, npc in ipairs(Config.npcs) do
         RequestModel(GetHashKey(npc.ped))
         print(npc.ped)
